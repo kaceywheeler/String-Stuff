@@ -14,13 +14,13 @@ class StringRunner {
         //Create new object
         StringStuff ref = new StringStuff();
 
-        //Output first and last letters
+        //Call method to output first and last letters
         System.out.println("Has first last letters: " + ref.firstLast(text));
 
-        //Output middle 
+        //Call method to output middle 
         System.out.println("Has middle letter: " + ref.middle(text));
 
-        //Output if first and last are same
+        //Call method to output if first and last are same
         System.out.println("Has same first and last letter: " + ref.isSame(text));
 
 }
